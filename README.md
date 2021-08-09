@@ -2,7 +2,7 @@
 
 ## Main task
 
-![Markdown Logo](Screenshot.jpg)
+![Markdown Logo](screenshot.jpg)
 
 1. To do list of tasks for "myself"
 2. Follow given Styles

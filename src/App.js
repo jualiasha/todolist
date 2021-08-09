@@ -1,9 +1,13 @@
 import "./App.css";
-
+import Header from "./Components/Header";
+import MainRedux from "./Components/MainRedux";
+import Footer from "./Components/Footer";
 function App() {
   return (
     <div>
-      <h1>Hello World!</h1>
+      <Header />
+      <MainRedux />
+      <Footer />
     </div>
   );
 }
