@@ -24,8 +24,6 @@ export function editTask(task) {
 
 export function createTask(task) {
   return (dispatch) => {
-    console.log(task);
-    console.log(dispatch);
     dispatch({
       type: CREATE_TASK,
       task,

@@ -13,7 +13,7 @@ const InputField = ({ createTask }) => {
     setTaskForm({
       ...taskForm,
       [event.target.name]: event.target.value,
-      ["id"]: Date.now(),
+      id: Date.now(),
     });
   };
 

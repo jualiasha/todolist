@@ -1,6 +1,7 @@
 import React from "react";
 import { connect } from "react-redux";
 import { editTask, deleteTask } from "../store/actions/tasksActions";
+import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
 
 const List = ({ tasks, editTask, deleteTask }) => {
   return (
@@ -8,15 +9,14 @@ const List = ({ tasks, editTask, deleteTask }) => {
       {tasks.map((task) => {
         return (
           <li
-            style={{ textDecoration: task.completed ? "overline" : "" }}
+            className={`${task.completed ? "completed" : ""}`}
             key={task.id}
-            onClick={() =>
-              editTask({ ...task, ["completed"]: !task.completed })
-            }
+            onClick={() => editTask({ ...task, completed: !task.completed })}
           >
             {task.note}
+
             <button onClick={() => deleteTask(task.id)} type="button">
-              delete
+              <DeleteForeverIcon />
             </button>
           </li>
         );

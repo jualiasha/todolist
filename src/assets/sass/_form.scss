@@ -1,0 +1,30 @@
+form {
+  input[type="text"] {
+    border: 1px solid $grey;
+    border-radius: $borderRadius;
+    -webkit-border-radius: $borderRadius;
+    -moz-border-radius: $borderRadius;
+    -ms-border-radius: $borderRadius;
+    -o-border-radius: $borderRadius;
+    margin-right: 2vw;
+    padding: 2vh 0;
+    font-family: $roboto;
+    font-size: 1.3rem;
+  }
+  button {
+    color: $darkgray;
+    background-color: $orange;
+    border: none;
+    border-radius: $borderRadius;
+    -webkit-border-radius: $borderRadius;
+    -moz-border-radius: $borderRadius;
+    -ms-border-radius: $borderRadius;
+    -o-border-radius: $borderRadius;
+    padding: 1.5vh 3vw;
+    font-size: 1.3rem;
+    vertical-align: middle;
+    &:hover {
+      box-shadow: $buttonshadow;
+    }
+  }
+}

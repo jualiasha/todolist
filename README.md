@@ -26,9 +26,8 @@
 
 ```js
 npm install
-npm install react-router-dom
-npm install axios
-npm install json-server --save-dev
+npm install/yarn add redux-thunk redux react-redux
+npm install/yarn add redux-devtools-extension
 npm install react-bootstrap bootstrap@4.6.0
 npm install @material-ui/core
 npm install @material-ui/icons
