@@ -1,5 +1,7 @@
 # ToDoList school project
 
+[![CI-todolist](https://github.com/jualiasha/todolist/actions/workflows/main.yml/badge.svg)](https://github.com/jualiasha/todolist/actions/workflows/main.yml)
+
 ## Main task
 
 ![Markdown Logo](screenshot.jpg)
